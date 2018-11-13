@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "app">
+        <h1>{{ message }}</h1>
+        <!-- 
+        v-model 是Vue 提供的特殊的属性，在Vue 中称之为指令
+        双向绑定表单控件 
+        -->
+        <input type = 'text' v-model = "message">
+    </div>
+    <script src = "node_modules/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message:  'Hello Vue.js!'
+            }
+        })
+    </script>
+</body>
+</html>

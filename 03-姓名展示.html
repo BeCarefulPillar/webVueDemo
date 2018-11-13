@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "app">
+        姓氏:<input type = 'text' value = "sun" v-model = "firstname">
+        <br>
+        名字:<input type="text" value = "kang" v-model = "lastname">
+        <br>
+        <p id = "fullname">{{firstname + lastname}}</p>
+
+        <div>
+            <input type="number" v-model = "number">
+            <!--<button v-on:click = "number++">点击+1</button>  --> 
+            <button v-on:click = "handel">点击+1</button>
+        </div>
+
+        <div>
+            <input type="number" v-model = "number1"> + <input type="number" v-model = "number2"><button v-on:click = "handleAdd(number1, number2)">=</button>
+            <strong>{{number3}}</strong>
+        </div>
+    </div>
+    <script src = "node_modules/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                firstname: '',
+                lastname: '',
+                number : 1,
+                number1: 1,
+                number2: 2,
+                number3: 0,
+            },
+            methods: {
+                handleIncrement: function(){
+                    this.number++
+                },
+                handel: function(){
+                    this.handleIncrement()
+                },
+                handleAdd: function(a,b){
+                    this.number3 = parseInt(a) + parseInt(b)
+                }
+            }
+        })
+
+        /*function handleIncrement(){
+            app.number++
+        }*/
+    </script>
+</body>
+</html>

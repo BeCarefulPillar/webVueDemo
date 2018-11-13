@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    
+
+     -->
+    <div id = "app">
+        <h1>{{ 1 + 1 }}</h1>
+        <h1>{{'hello' + 'woeld'}}</h1>
+        <h1>{{ message }}</h1>
+    </div>
+    <!--
+        0. npm install vue
+        1.引包
+        2.new Vue 得到Vue 实例
+            Vue 暂且可以理解为一个高级的模板引擎
+    -->
+    <script src = "node_modules/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el:'#app', //el 选项作用告诉vue管理模板的入口节点，也就是div#app 的节点
+            //初始化数据成员显示初始化
+            //响应式数据
+            //数据驱动视图 MVVM
+            data:{
+                message : 'hello vue.js!'
+            }           
+        })
+    </script>
+</body>
+</html>

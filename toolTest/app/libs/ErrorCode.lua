@@ -1,0 +1,71 @@
+local M = {
+    RUNTIME_ERROR                 = 1,
+    SERVER_ERROR                    = 2,
+    CLIENT_ERROR                     = 3,
+    PROTO_ERROR                     = 4,
+    ACCOUNT_EXISTS                = 100,
+    ACCOUNT_NOT_EXISTS       = 101,
+    PLAYER_EXISTS                     = 102,
+    PLAYER_NOT_EXISTS            = 103,
+    PLAYER_KICKOFF                  = 104,
+
+    GOLD_NOT_ENOUGH                                     = {code=1000,msg="gold_not_enough"},
+    CHARACTER_STAR_MAX                                  = {code=1001,msg="character_star_max"},
+    CHARACTER_LEVEL_MAX                                 = {code=1002,msg="character_level_max"},
+    CHARACTER_NUM_NOT_ENOUGH                = {code=1003,msg="character_num_not_enough"},
+    CHARACTER_NO_MORE_LEVEL                      = {code=1004,msg="character_no_more_level"},
+    NOT_COMPLETE_LEVEL                                  = {code=1005,msg="not_complete_level"},
+    ALEADY_COMPLETE_LEVEL                            = {code=1006,msg="aleady_complete_level"},
+    NOT_AUTO_BATTLE_TIMEOUT                      = {code=1007,msg="not_auto_battle_timeout"},
+    NOT_ENOUGH_CONDITION                          = {code=1008,msg="not_enough_condition"},
+    ITEM_NOT_ENOUGH                                      = {code=1009,msg="item_not_enough"},
+    REFRESH_SHOP_TIME                                    = {code=1010,msg="refresh_shop_time"},
+    NO_BUY_COUNT                                             = {code=1011,msg="no_buy_count"},
+    GEM_NOT_ENOUGH                                      = {code=1012,msg="gem_not_enough"},
+    NO_PROP                                                         = {code=1013,msg="no_prop"},
+    NO_CHARACTER                                              = {code=1014,msg="no_character"},
+    EXP_NOT_ENOUGH                                         = {code=1015,msg="exp_not_enough"},
+    QUEST_HAS_RECEIVED                                   = {code=1016,msg="quest_has_received"},
+    QUEST_NOT_COMPLETE                                 = {code=1017,msg="quest_not_complete"},
+    NO_MORE_REFRESH_QUEST_COUNT           = {code=1018,msg="no_more_refresh_quest_count"},
+    GEM_STONE_NOT_ENOUGH                          = {code = 1019, msg = "gem_stone_not_enough"},
+    MILITARY_NO_REWARDS                                = {code = 1020, msg = "military_no_rewards"},
+    MILITARY_HAS_RECEIVED                               = {code = 1021, msg = "military_has_received"},
+    MILITARY_NOT_COMPLETE                            = {code = 1022, msg = "military_not_complete"},
+    ORDER_NEED_WAIT                                         =  {code = 1023, msg = "order_need_wait"},
+    ORDER_AREADY_DEAL                                     = {code = 1024, msg = "order_aready_deal"},
+    ORDER_ERROR                                                  = {code = 1025, msg = "order_error"},
+    MONTH_CARD_DAYS_LIMIT                            = {code = 1026, msg = "month_card_days_limit"},
+    VIP_REWARD_HAS_RECEIVED                         = {code = 1027, msg = "vip_reward_has_received"},
+    VIP_LEVEL_LOW                                                = {code = 1028, msg = "vip_level_low"},
+    FRIEND_AREADY_IN_LIST                                = {code = 1029, msg = "friend_aready_in_list"},
+    FRIEND_OVERTIME                                           = {code = 1030, msg = "friend_overtime"},
+    MY_FRIEND_FULL                                              = {code = 1031, msg = "my_friend_full"},
+    OTHER_FRIEND_FULL                                       = {code = 1032, msg = "other_friend_full"},
+    FRIEND_TAG_ERROR                                         = {code = 1033, msg = "friend_tag_error"},
+    MAIL_NOT_EXISTS                                              = {code = 1034, msg = "mail_not_exists"},
+    MAIL_AREADY_RECEIVED                                 = {code = 1035, msg = "mail_aready_received"},
+    FRIEND_NOT_ONLINE                                      = {code = 1036, msg = "friend_not_online"},
+    RECRUIT_CONDITION_ERROR                         = {code = 1037, msg = "recruit_condition_error"},
+    GEM_RECRUIT_NOT_ENOUGH                         = {code = 1038, msg = "recruit_not_enough"},
+    AUTO_BATTLE_COUNT_ERROR                         = {code = 1039, msg = "auto_battle_count_error"},
+    PLAYER_LEVEL_LOW                                          = {code=1040,msg="player_level_low"},
+    PVP_RANK_LOW                                                = {code=1041,msg="pvp_rank_low"},
+    NO_PVP_CHARACTER                                        = {code=1042,msg="no_pvp_character"},
+    PVP_CHARACTER_LEVEL_MAX                           = {code=1043,msg="pvp_character_level_max"},
+    PVP_SHOP_OVERTIME                                      = {code=1044,msg="pvp_shop_overtime"},
+}
+
+M.ErrorType = {
+    GOLD_NOT_ENOUGH = 1000,
+    ITEM_NOT_ENOUGH = 1009,
+    GEM_NOT_ENOUGH  =  1012,
+    GEM_STONE_NOT_ENOUGH = 1019,
+
+}
+
+function M.newError(errorType, msg)
+    return {code = errorType, msg = msg}
+end
+
+return M

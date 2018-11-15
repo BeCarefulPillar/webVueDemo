@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>GMTools</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!--link rel="shortcut icon" href="favicon.ico"--> 
+    <link href="/static/public/bootstrap/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="/static/css/index/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/static/css/index/animate.css" rel="stylesheet">
+    <link href="/static/css/index/style.css?v=4.1.0" rel="stylesheet">
+</head>
+
+<body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+    <div id ="header" style="padding-left:30px;height:75px;width:auto;background-color:#2f4050">
+        <p style="padding-top:15px;font-size:25px;color:white;font-family:'黑体'">合金弹头GM工具</p>
+        <p style="padding-top:5px;font-size:18px;color:white;font-family:'黑体';margin-top:-20px">Metalsluggs GMTools</p>
+    </div>
+     <!--主体-->
+    
+    <div id="wrapper">
+        <!--div class="dashbard-1" id="title">
+            <img src="img/title.png">
+        </div-->
+        <!--左侧导航开始-->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="nav-close"><i class="fa fa-times-circle"></i></div>
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">   
+                    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                        <span class="ng-scope">&nbsp;</span>
+                    </li>
+                   
+                    <li>
+                        <a href="#"><i class="fa fa-calendar"></i> <span class="nav-label">数据库查询</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="/auth/select">玩家数据查询</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-calendar"></i> <span class="nav-label">PVP统计</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="/home/PVP_grade">分段统计</a></li>
+                            <!--<li><a class="J_menuItem" href="/home/PVP_rank">排名详情</a></li>
+                            <li><a class="J_menuItem" href="Basic_data_pipe.html">英雄分析</a></li>
+                            <li><a class="J_menuItem" href="Basic_data_pipe.html">战绩查询</a></li>-->
+                        </ul>
+                    </li>
+                    
+                    <!-- <li>
+                        <a href="#"><i class="fa fa-calendar"></i> <span class="nav-label">日常项目管理</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="Daily_items.html">道路大中修</a></li>
+                            <li><a class="J_menuItem" href="Daily_items1.html">排水管线改造</a></li>
+                            <li><a class="J_menuItem" href="Daily_items2.html">慢行系统改造</a></li>
+                            <li><a class="J_menuItem" href="">疏堵工程</a></li>
+                            <li><a class="J_menuItem" href="">架空线入地</a></li>
+                            <li><a class="J_menuItem" href="">微循环改造</a></li>
+                            <li><a class="J_menuItem" href="daily_data.html">相关数据录入</a></li>
+                        </ul>
+                    </li> -->
+                    
+<!--                <li>
+                        <a href="#"><i class="fa fa-building-o"></i> <span class="nav-label">业务相关</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="">占道审批</a></li>
+                            <li><a class="J_menuItem" href="">广告牌备案</a></li>
+                            <li><a class="J_menuItem" href="">各相关部门</a></li>
+                        </ul>
+                    </li> -->
+                    
+                    <!--<li>
+                        <a href="#"><i class="fa fa-folder"></i> <span class="nav-label">状况备案管理</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="">各部门协调</a></li>
+                            <li><a class="J_menuItem" href="Status_record_create.html">事件记录创建</a></li>
+                            <li><a class="J_menuItem" href="Status_record_query.html">事件记录查询</a></li>
+                        </ul>
+                    </li>-->
+                    
+                    <!--<li>
+                        <a href="#"><i class="fa fa-folder"></i> <span class="nav-label">数据更新管理</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="">数据更新</a></li>
+                            <li><a class="J_menuItem" href="Status_record_create.html">数据修改记录</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </div>
+        </nav>
+        <!--左侧导航结束-->
+        <!--右侧部分开始-->
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row J_mainContent" id="content-main">
+                <iframe id="J_iframe" src="/home/PVP_grade" width="100%" height="100%" frameborder="0" data-id=" seamless"></iframe>
+            </div>
+        </div>
+        <!--右侧部分结束-->
+        <!--内容
+        <div1 id="content">
+            
+        </div1>-->
+    </div>
+
+    <!-- 全局js -->
+    <script src="/static/public/jquery/jquery-3.1.1.min.js?v=2.1.4"></script>
+    <script src="/static/public/bootstrap/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="/static/js/index/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="/static/js/index/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/static/js/index/plugins/layer/layer.min.js"></script>
+
+    <!-- 自定义js -->
+    <script src="/static/js/index/hAdmin.js?v=4.1.0"></script>
+    <script type="text/javascript" src="/static/js/index/index.js"></script>
+
+</body>
+
+</html>

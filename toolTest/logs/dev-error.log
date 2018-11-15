@@ -1,0 +1,241 @@
+2018/11/12 14:56:13 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 14:56:13 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /home/PVP_grade HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/"
+2018/11/12 14:56:15 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/"
+2018/11/12 14:56:15 [error] 3591#3591: *1 open() "/home/sunkang/work/gameTools/./app/static/css/base.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/base.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:15 [error] 3588#3588: *2 open() "/home/sunkang/work/gameTools/./app/static/css/index.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/index.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:15 [error] 3588#3588: *3 open() "/home/sunkang/work/gameTools/./app/static/css/app.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/app.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:18 [error] 3588#3588: *3 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/"
+2018/11/12 14:56:18 [error] 3588#3588: *3 open() "/home/sunkang/work/gameTools/./app/static/css/base.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/base.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:18 [error] 3588#3588: *2 open() "/home/sunkang/work/gameTools/./app/static/css/app.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/app.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:18 [error] 3591#3591: *1 open() "/home/sunkang/work/gameTools/./app/static/css/index.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/index.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3591#3591: *1 attempt to set ngx.header.HEADER after sending out response headers, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3591#3591: *1 attempt to set ngx.status after sending out response headers, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3591#3591: *1 open() "/home/sunkang/work/gameTools/./app/static/css/base.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/base.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3588#3588: *2 open() "/home/sunkang/work/gameTools/./app/static/css/index.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/index.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:23 [error] 3588#3588: *3 open() "/home/sunkang/work/gameTools/./app/static/css/app.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/app.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:25 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:26 [error] 3591#3591: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/"
+2018/11/12 14:56:26 [error] 3588#3588: *2 open() "/home/sunkang/work/gameTools/./app/static/css/index.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/index.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:26 [error] 3591#3591: *1 open() "/home/sunkang/work/gameTools/./app/static/css/base.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/base.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:26 [error] 3588#3588: *3 open() "/home/sunkang/work/gameTools/./app/static/css/app.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/app.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3588#3588: *3 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3588#3588: *3 attempt to set ngx.header.HEADER after sending out response headers, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3588#3588: *3 attempt to set ngx.status after sending out response headers, client: 192.168.1.127, server: , request: "POST /auth/select HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3588#3588: *3 open() "/home/sunkang/work/gameTools/./app/static/css/base.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/base.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3588#3588: *2 open() "/home/sunkang/work/gameTools/./app/static/css/app.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/app.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:28 [error] 3591#3591: *1 open() "/home/sunkang/work/gameTools/./app/static/css/index.css" failed (2: No such file or directory), client: 192.168.1.127, server: , request: "GET /static/css/index.css HTTP/1.1", host: "192.168.1.180:8888", referrer: "http://192.168.1.180:8888/auth/select"
+2018/11/12 14:56:33 [error] 3591#3591: *1 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 14:58:47 [error] 3590#3590: *10 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 14:59:56 [error] 3760#3760: *11 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:00:00 [error] 3760#3760: *11 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:03:18 [error] 3845#3845: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:03:22 [error] 3845#3845: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:03:25 [error] 3845#3845: *1 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:12 [error] 3844#3844: *4 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:30 [error] 3844#3844: *4 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:30 [error] 3844#3844: *4 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:31 [error] 3844#3844: *4 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:31 [error] 3844#3844: *4 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:49 [error] 3952#3952: *6 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:19:49 [error] 3952#3952: *6 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:33 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:34 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:35 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:35 [error] 3971#3971: *8 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:20:37 [error] 3971#3971: *8 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:21 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:22 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:22 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:22 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:22 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:22 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:22:23 [error] 4016#4016: *10 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:37:28 [error] 4092#4092: *13 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:37:28 [error] 4092#4092: *13 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:37:29 [error] 4092#4092: *13 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:37:29 [error] 4092#4092: *13 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:12 [error] 4093#4093: *14 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:19 [error] 4091#4091: *15 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:19 [error] 4179#4179: *16 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:20 [error] 4179#4179: *17 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:22 [error] 4182#4182: *18 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:40 [error] 4182#4182: *21 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:40 [error] 4182#4182: *20 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:41 [error] 4181#4181: *22 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:47 [error] 4181#4181: *23 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:48 [error] 4204#4204: *24 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:48 [error] 4205#4205: *25 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:48 [error] 4205#4205: *26 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:48 [error] 4207#4207: *27 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:52 [error] 4204#4204: *28 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:39:54 [error] 4206#4206: *29 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:03 [error] 4204#4204: *30 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:04 [error] 4239#4239: *31 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:04 [error] 4239#4239: *32 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:04 [error] 4239#4239: *33 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:05 [error] 4239#4239: *34 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:05 [error] 4240#4240: *35 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:06 [error] 4237#4237: *36 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:07 [error] 4240#4240: *37 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:07 [error] 4238#4238: *38 lua entry thread aborted: runtime error: ./app/router.lua:5: attempt to index global 'lor' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:07 [error] 4240#4240: *39 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:07 [error] 4239#4239: *40 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:07 [error] 4239#4239: *41 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:24 [error] 4237#4237: *43 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:40 [error] 4239#4239: *45 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:46 [error] 4239#4239: *46 lua entry thread aborted: runtime error: /home/sunkang/work/toolTest/./app/main.lua:1: loop or previous error loading module 'app.server'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/sunkang/work/toolTest/./app/main.lua:1: in function </home/sunkang/work/toolTest/./app/main.lua:1>, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:47 [error] 4271#4271: *47 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:47 [error] 4271#4271: *47 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:55 [error] 4271#4271: *47 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:40:58 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:41:05 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:41:27 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test/test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:41:57 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test/test/abc HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:00 [error] 4271#4271: *47 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET / HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:04 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:23 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:40 [error] 4271#4271: *47 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:44 [error] 4270#4270: *53 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:45 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:45 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:42:46 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:00 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:00 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:01 [error] 4332#4332: *54 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:07 [error] 4331#4331: *56 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:44 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:46 [error] 4354#4354: *58 [lua] server.lua:37: func(): 404! not found., client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:47 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:43:56 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:44:00 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:44:00 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:44:00 [error] 4354#4354: *58 [lua] server.lua:37: func(): Oh! no handler to process method: get, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:44:05 [error] 4357#4357: *60 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:44:05 [error] 4407#4407: *61 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /test HTTP/1.1", host: "192.168.1.180:8888"
+2018/11/12 15:47:06 [error] 4562#4562: *63 [lua] session.lua:85: func(): cannot get session_data:no cookie found in the current request, client: 192.168.1.127, server: , request: "GET /select HTTP/1.1", host: "192.168.1.180:8888"

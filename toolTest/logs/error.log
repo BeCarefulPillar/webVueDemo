@@ -1,0 +1,20 @@
+2018/11/12 14:59:52 [notice] 3758#3758: signal process started
+2018/11/12 15:01:11 [notice] 3773#3773: signal process started
+2018/11/12 15:19:38 [notice] 3949#3949: signal process started
+2018/11/12 15:20:30 [notice] 3970#3970: signal process started
+2018/11/12 15:22:19 [notice] 4014#4014: signal process started
+2018/11/12 15:37:20 [notice] 4090#4090: signal process started
+2018/11/12 15:39:17 [notice] 4178#4178: signal process started
+2018/11/12 15:39:45 [notice] 4203#4203: signal process started
+2018/11/12 15:40:01 [notice] 4236#4236: signal process started
+2018/11/12 15:40:18 [emerg] 4251#4251: bind() to 0.0.0.0:8888 failed (98: Address already in use)
+2018/11/12 15:40:18 [emerg] 4251#4251: bind() to 0.0.0.0:8888 failed (98: Address already in use)
+2018/11/12 15:40:18 [emerg] 4251#4251: bind() to 0.0.0.0:8888 failed (98: Address already in use)
+2018/11/12 15:40:18 [emerg] 4251#4251: bind() to 0.0.0.0:8888 failed (98: Address already in use)
+2018/11/12 15:40:18 [emerg] 4251#4251: bind() to 0.0.0.0:8888 failed (98: Address already in use)
+2018/11/12 15:40:18 [emerg] 4251#4251: still could not bind()
+2018/11/12 15:40:44 [notice] 4269#4269: signal process started
+2018/11/12 15:42:43 [notice] 4330#4330: signal process started
+2018/11/12 15:43:05 [notice] 4353#4353: signal process started
+2018/11/12 15:44:02 [notice] 4405#4405: signal process started
+2018/11/12 15:47:01 [notice] 4560#4560: signal process started

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en" data-framework="jquery" class="hb-loaded">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>select account</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body style="cursor: default;width:450px;">
+    <form action="/auth/select" method="post" name="select">
+        accountName: <input type="text" name="accountName">
+        <button type="submit">select</button>
+    </form>
+    <div>
+        {% if user then %}
+        <form action="/auth/save" method="post" name="select">
+            id:<input type="text" name="id" value={{user.id}}><br>
+            tag:<input type="text" name="tag" value={{user.tag}}><br>
+            name:<input type="text" name="name" value={{user.name}}><br>
+            sex:<input type="text" name="sex" value={{user.sex}}><br>
+            level:<input type="text" name="level" value={{user.level}}><br>
+            exp:<input type="text" name="exp" value={{user.exp}}><br>
+            gold:<input type="text" name="gold" value={{user.gold}}><br>
+            gem:<input type="text" name="gem" value={{user.gem}}><br>
+            gemStone:<input type="text" name="gemStone" value={{user.gemStone}}><br>
+            recruit:<input type="text" name="recruit" value={{user.recruit}}><br>
+            vipLevel:<input type="text" name="vipLevel" value={{user.vipLevel}}><br>
+            vipExp:<input type="text" name="vipExp" value={{user.vipExp}}><br>
+            head:<input type="text" name="head" value={{user.head}}><br>
+            frame:<input type="text" name="frame" value={{user.frame}}><br>
+            <!--body:<input type="text" name = "body" value={{user.tag}}><br>-->
+            loginAt:<input type="text" name="loginAt" value={{user.loginAt}}><br>
+            updatedAt:<input type="text" name="updatedAt" value={{user.updatedAt}}><br>
+            createdAt:<input type="text" name="createdAt" value={{user.createdAt}}><br>
+            <button type="submit">save</button>
+        </form>
+        {% end %}
+    </div>
+</body>
+</html>
